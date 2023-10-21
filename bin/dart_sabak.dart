@@ -1,4 +1,35 @@
+import 'dart:math';
+
 void main() {
+  // Генерируем случайное целое число
+  int randomInt = Random().nextInt(100); // Генерирует число от 0 до 99
+  print('Случайное целое число: $randomInt');
+
+  // Генерируем случайное число с плавающей точкой
+  double randomDouble =
+      Random().nextDouble(); // Генерирует число между 0.0 и 1.0
+  print('Случайное число с плавающей точкой: $randomDouble');
+
+  // int day = 10;
+  // if (day == 1 || day == 2 || day == 3 || day == 4 || day == 5) {
+  //   print('Жумуш күн');
+  // } else if (day > 3) {
+  //   print(
+  //       'Сиз жумада 7 күн бар экенин билесиз. Программа менен ойной бербеңиз.');
+  // } else {
+  //   print('Эс алуу күн');
+  // }
+  // var rng = Random();
+  // for (var i = 0; i < 10; i++) {
+  //   print(rng.nextInt(100));
+  // }
+  // var i = 0;
+  // while (i < 10) {
+  //   print(i);
+  //   i = i + 2;
+  // }
+
+  //////////////////////////////////////////////////////
   // List<String> a = ['alma', 'banan', 'juzum'];
 
   // int b = a.length;
@@ -6,7 +37,7 @@ void main() {
   // for (int i = 0; i < b; i++) {
   //   print(b);
   // }
-
+///////////////////////////////////////////////////////////////
   // List a = [12, 'ddd', true, 33];
 
   // List b = [12, 333, 22, 33];
@@ -67,7 +98,7 @@ void main() {
   // } else if (balans >= taxsi && balans < biznes) {
   //   return print('taxsi menen ketem');
   // }
-  //////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////////////
 }
 
 // String almaBak = '22'; // camel case:
