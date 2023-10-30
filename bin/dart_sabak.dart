@@ -1,13 +1,16 @@
 void main() {
-  final String a = 'Bvc';
-  print(a);
+  String a = 'Bvc, skdgk, dkdbak';
+  // final aa = a.replaceAll(' ', '+');
 
+  print(a);
+  // endsWith('d')
+// replaceAll(' ', '-')
   // toString() bul Srting kaitarat
   // trim() сапты алдынкы жана арткы боштуксуз кайтарат
 // toLowerCase() символдорду кичине тамга менен
 // toUpperCase());// символдорду чон тамга менен
-  int s = 22;
-  print(s.toString());
+  // int s = 22;
+  // print(s.toString());
   // bool g = true;
   // g = false;
   // const double dd = 2.3;
