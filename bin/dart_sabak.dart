@@ -1,8 +1,22 @@
 void main() {
-  String a = 'Bvc, skdgk, dkdbak';
-  // final aa = a.replaceAll(' ', '+');
+  // RegExp exp = RegExp(r'(\w+)');
+  // var str = 'Dash is a bird dart';
+  // Iterable<Match> matches = exp.allMatches(str, 0);
+  // for (final Match m in matches) {
+  //   String match = m[0]!;
+  //   print(match);
+  // }
+  String a = 'Sfaga  tery utjgy';
+  String b = 'A';
+  int s = 2;
+  // print(a.);
 
-  print(a);
+  //
+
+  // String a = 'Bvc, skdgk, dkdbak';
+  // // final aa = a.replaceAll(' ', '+');
+
+  // print(a.compareTo(other));
   // endsWith('d')
 // replaceAll(' ', '-')
   // toString() bul Srting kaitarat
