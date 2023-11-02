@@ -1,4 +1,32 @@
 void main() {
+  double s = 12.4;
+  int a = 13;
+  print(a.);
+  // toDouble();
+  // toInt()
+  // toString()
+  // round()
+  // floor()
+  // compareTo(other)
+// clamp(lowerLimit, upperLimit)
+  // round()/////
+  ///////////////////////////////////////////////
+  // RegExp exp = RegExp(r'(\w+)');
+  // var str = 'Dash is a bird dart';
+  // Iterable<Match> matches = exp.allMatches(str, 9);
+  // for (final Match m in matches) {
+  //   String match = m[0]!;
+  //   print(match);
+  // }g
+  // String a = "mas ASD asd sdf fwegw";
+  // String b = "s";
+  // // print(b.codeUnitAt(0));
+  // // print(a.codeUnitAt(0));
+
+  // print(a.());
+  // double a = 201.10; // Replace 200.5 with your desired floating-point number
+  // int roundedUp = a.ceil();
+  // print(roundedUp.clamp(lowerLimit, upperLimit));
   // RegExp exp = RegExp(r'(\w+)');
   // var str = 'Dash is a bird dart';
   // Iterable<Match> matches = exp.allMatches(str, 0);
@@ -6,9 +34,9 @@ void main() {
   //   String match = m[0]!;
   //   print(match);
   // }
-  String a = 'Sfaga  tery utjgy';
-  String b = 'A';
-  int s = 2;
+  // String a = 'Sfaga  tery utjgy';
+  // String b = 'A';
+  // int s = 2;
   // print(a.);
 
   //
