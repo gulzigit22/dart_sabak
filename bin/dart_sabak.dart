@@ -1,7 +1,91 @@
-void main() {
-  double s = 12.4;
-  int a = 13;
-  print(a.);
+void main() {}
+//   Adam adam = Adam('azat', 22);
+//   Adam adam2 = Adam('asan', 42);
+//   print(adam.name);
+//   print(adam.jash);
+//   print(adam2.name);
+//   print(adam2.jash);
+// }
+
+// class Adam {
+//   String? name;
+//   int? jash;
+
+//   Adam(String name, int jash) {
+//     this.name = name;
+//     this.jash = jash;
+//   }
+
+//   String salam() {
+//     if (name == null) {
+//       name = "N/A";
+//     }
+//     return name.toString() + " " + jash.toString();
+//   }
+// }
+
+
+  // List<List<int>> list = [
+  //   [1, 22, 34, 21, 45, 67, 2],
+  //   [3, 56, 23, 76, 89, 9]
+  // ];
+
+  // for (var j = 0; j < list.length; j++) {
+  //   int min = list[j][0];
+
+  //   for (int i = 0; i < list[j].length; i++) {
+  //     int n = list[j][i];
+  //     if (n > min) {
+  //       min = n;
+  //     }
+  //   }
+  //   print(min);
+  // }
+
+  // List a = [23, 4, 5, 8, 56, 1];
+  // int max = a[0];
+  // for (var i = 0; i < a.length; i++) {
+  //   int b = a[i];
+  //   if (b < max) {
+  //     max = b;
+  //   }
+  // }
+  // print(max);
+
+  // int a = 3;
+  // int b = 7;
+  // int c = a;
+  // a = b;
+  // b = c;
+
+  // print("a$a");
+  // print("b$b");
+  ////////////////////////////////////////////////////////////
+  // List list = ['saaf', 12, 24, 43, -5, 45, -6];
+  // var san = 10;
+
+  // while (san <= 15) {
+  //   print(san);
+  //   san++;
+  // }
+  //////////////////////////////////////////////
+  // do {
+  //   san++;
+  //   print('do $san');
+  // } while (san <= 15);
+  /////////////////////////////////////////////
+  // for (int i = 4; i < list.length; i++) {
+  //   print(list[i]);
+  // }
+  // print('object');
+//////////////////////////////////////////////
+  // for (var nam in list) {
+  //   print(nam);
+  // }
+//////////////////////////////////////////////
+  // double s = 12.4;
+  // int a = 13;
+  // print(a.);
   // toDouble();
   // toInt()
   // toString()
@@ -206,4 +290,4 @@ void main() {
 //   bool ss = a >= b;
 //   print(ss);
 ////////////////////////////////////////////////////////////////////
-}
+// }
