@@ -1,4 +1,39 @@
-void main() {}
+void main() {
+  int aa = sandar(12, 13);
+  print(aa);
+}
+
+int sandar(int a, int b) => a + b;
+/////////////////////////////////////////////////////
+int factoril(int x) {
+  if (x == 0) return 1;
+  return x * factoril(x - 1);
+}
+    fac(4) = 4 * fac (3)
+/////////////////////////////////////////////////////
+
+void User({String name = 'name', int age = 21}) {
+  print("аты: $name");
+  print("жашы: $age");
+}
+/////////////////////////////////////////////
+void sandar(int a) {
+  int birinchi = a % 10;
+  print("birinchi $birinchi");
+}
+ int birinchi = a % 10;
+  print("birinchi $birinchi");
+
+  int ekinchi = b % 10;
+  print("birinchi $ekinchi");
+  int uch = c % 10;
+  print("birinchi $uch");
+///////////////////////////////////
+sum(String name, int age) {
+  return " salam $name, s $age ";
+}
+
+//////////////////////////////////////////////////////////////////////////////////
 //   Adam adam = Adam('azat', 22);
 //   Adam adam2 = Adam('asan', 42);
 //   print(adam.name);
