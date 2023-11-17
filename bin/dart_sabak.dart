@@ -1,39 +1,68 @@
-void main() {
-  int aa = sandar(12, 13);
-  print(aa);
-}
+void main() {}
+/////////////////////////////////////////////////////////////////////
+  // // Adam adam = Adam(nme: 'sdfg', jash: 2);
+  // // Adam adam1 = Adam.withName('');
+  // // print(adam.name);
+  // // print(adam.jash);
+  // // print(adam1.name);
+  // Adam.jastName = "samat";
+  // Adam.lastName = "salat";
+  // print(Adam.hello());
+  // print(Adam.thist());
+// class Adam {
+//   String name;
+//   int jash;
+//   static String? jastName;
+//   static String? lastName;
+//   static String hello() {
+//     if (jastName == null) {
+//       return "N/A";
+//     }
+//     return jastName.toString();
+//   }
 
-int sandar(int a, int b) => a + b;
-/////////////////////////////////////////////////////
-int factoril(int x) {
-  if (x == 0) return 1;
-  return x * factoril(x - 1);
-}
-    fac(4) = 4 * fac (3)
-/////////////////////////////////////////////////////
+//   static String thist() {
+//     return lastName.toString();
+//   }
 
-void User({String name = 'name', int age = 21}) {
-  print("аты: $name");
-  print("жашы: $age");
-}
-/////////////////////////////////////////////
-void sandar(int a) {
-  int birinchi = a % 10;
-  print("birinchi $birinchi");
-}
- int birinchi = a % 10;
-  print("birinchi $birinchi");
+//   Adam(this.name, this.jash);
+//   // Adam({required this.name, required this.jash});
+//   // Adam.withName(re this.name);
+// }
+/////////////////////////////////////////////////////////////////////
+  // int aa = sandar(12, 13);
+  // print(aa);
+// int sandar(int a, int b) => a + b;
+// /////////////////////////////////////////////////////
+// int factoril(int x) {
+//   if (x == 0) return 1;
+//   return x * factoril(x - 1);
+// }
+//     fac(4) = 4 * fac (3)
+// /////////////////////////////////////////////////////
 
-  int ekinchi = b % 10;
-  print("birinchi $ekinchi");
-  int uch = c % 10;
-  print("birinchi $uch");
-///////////////////////////////////
-sum(String name, int age) {
-  return " salam $name, s $age ";
-}
+// void User({String name = 'name', int age = 21}) {
+//   print("аты: $name");
+//   print("жашы: $age");
+// }
+// /////////////////////////////////////////////
+// void sandar(int a) {
+//   int birinchi = a % 10;
+//   print("birinchi $birinchi");
+// }
+//  int birinchi = a % 10;
+//   print("birinchi $birinchi");
 
-//////////////////////////////////////////////////////////////////////////////////
+//   int ekinchi = b % 10;
+//   print("birinchi $ekinchi");
+//   int uch = c % 10;
+//   print("birinchi $uch");
+// ///////////////////////////////////
+// sum(String name, int age) {
+//   return " salam $name, s $age ";
+// }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
 //   Adam adam = Adam('azat', 22);
 //   Adam adam2 = Adam('asan', 42);
 //   print(adam.name);
