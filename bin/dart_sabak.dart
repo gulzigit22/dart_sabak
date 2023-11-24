@@ -1,4 +1,46 @@
-void main() {}
+void main() {
+  for (var i = 0; i < Day.values.length; i++) {
+    print('''value: ${Day.values[i]}, 
+    index: ${Day.values[i].index}''');
+  }
+}
+// print(Day.ekinchi);
+// print(Day.values);
+// Day days = Day.Birinchi;
+// switch (days) {
+//   case Day.Birinchi:
+//     print("Birinchi");
+//     break;
+//   case Day.ekinchi:
+//     print("ekinchi");
+//     break;
+//   case Day.uchunchu:
+//     print("uchunchu");
+//     break;
+//   case Day.tortunhu:
+//     print("tortunhu");
+//     break;
+//   case Day.beshinchi:
+//     print("beshinchi");
+//     break;
+//   case Day.altynchy:
+//     print("altynchy");
+//     break;
+//   case Day.jetinchi:
+//     print("jetinchi");
+//     break;
+// }
+
+enum Day {
+  Birinchi,
+  ekinchi,
+  uchunchu,
+  tortunhu,
+  beshinchi,
+  altynchy,
+  jetinchi,
+}
+
 /////////////////////////////////////////////////////////////////////
   // // Adam adam = Adam(nme: 'sdfg', jash: 2);
   // // Adam adam1 = Adam.withName('');
