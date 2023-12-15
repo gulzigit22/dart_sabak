@@ -1,4 +1,101 @@
-void main() {
+void main() {}
+  ////////////////////////////////////////////////
+//   salam();
+//   user('Azat', 11);
+//   sandar(3);
+// }
+// salam() {
+//   print('salam');
+// }
+// void user(String name, int age) {
+//   print("аты: $name");
+//   print("жашы: $age");
+// }
+// void sandar(int a) {
+//   int birinchi = a % 5;
+//   print("birinchi $birinchi");
+// }
+/////////////////////////////////////////////////////
+// List<List<int>> list = [
+//   [9, 5, 6, 2, 7, 8, 1, 3, 4],
+//   [12, 11, 13, 42, 7, 32, 6, 14, 4],
+// ];
+
+// for (int i = 0; i < list.length; i++) {
+//   int min = list[i][0];
+//   for (int j = 0; j < list[i].length; j++) {
+//     int b = list[i][j];
+//     if (b > min) {
+//       min = b;
+//     }
+//   }
+//   print(min);
+// }
+// print(list);
+/////////////////////////////////////////////////////////
+// List<int> a = [9, 5, 6, 2, 7, 8, 1, 3, 4];
+// var min = a[0];
+// var max = a[0];
+// for (var i = 0; i < a.length; i++) {
+//   if (a[i] < min) min = a[i];
+//   if (a[i] > max) max = a[i];
+// }
+// print(a);
+// print(min);
+// print(max);
+///////////////////////////////////////////////////////////
+// List<int> a = [9, 5, 6, 2, 7, 8, 1, 3, 4];
+// print(a);
+// int l = a.length;
+// for (int i = 0; i < l - 1; i++) {
+//   for (int j = 0; j < l - 1 - i; j++) {
+//     if (a[j] > a[j + 1]) {
+//       int tem = a[j];
+//       a[j] = a[j + 1];
+//       a[j + 1] = tem;
+//     }
+//   }
+// }
+// print(a);
+////////////////////////////////////////////////////////////
+// int day = 1;
+// if (day == 1 || day == 2 || day == 3 || day == 4 || day == 5) {
+//   print('Жумуш күн');
+// } else if (day >= 6 && day <= 7) {
+//   print('эс алуу куну');
+// } else if (day >= 8) {
+//   print(
+//  'Сиз жумада 7 күн бар экенин билесиз. Программа менен ойной бербеңиз.');
+// }
+// int balans = 909;
+// int avtobuws = 40;
+// int taxsi = 100;
+// int biznes = 500;
+
+// if (balans >= avtobuws && balans <= taxsi) {
+//   print('avtobus menen ketem');
+// } else if (balans >= taxsi && balans <= biznes) {
+//   print('taxsi menen ketem');
+// } else if (balans >= biznes) {
+//   print('biznes menen ketem');
+// } else {
+//   print('peshkom ketem');
+// }
+// }
+//   Set a = {1234, 234, 5, 6, 6, 5};
+//   List list = [1, 22, 34, 21, 45, 67, 22, 22];
+
+//   List satart = ['fs', 'afa'];
+//   Map sa = {1: 23, 2: 'fd', 3: 21.2};
+//   // list.add(10);
+//   // list.addAll(satart);
+//   // list.clear();
+//   // list.indexOf(22);
+//   //////////////////////////print(list.indexOf(21));
+//   print(list.remove(2));
+//   print(a.remove(6));
+//   print(sa.remove(3));
+// }
 //   String almaBak = '22asdfgh xdf'; // camel case:
 //   String alma_bak_12 = "  a'sd'fgd   "; //snak case:
 //   String alma_bak_ = '''ASDFGHxgdgh
@@ -15,40 +112,40 @@ void main() {
 //   print(alma_bak_12);
 //   print(alma_bak_);
 ////////////////////////////////////////////////////////////
-  //  == равно
-  // != не равно
-  // <= Меньше или равно
-  // >= Больше или равно
-  // >  Больше
-  // < Меньше
+//  == равно
+// != не равно
+// <= Меньше или равно
+// >= Больше или равно
+// >  Больше
+// < Меньше
 
 // && (и)
 // || (или)
-  // int a = 3;
-  // int bwe = 7;
-  // int c = a;
-  // a = bwe;
-  // bwe = c;
+// int a = 3;
+// int bwe = 7;
+// int c = a;
+// a = bwe;
+// bwe = c;
 
-  // print("a $a");
-  // print("b $bwe");
-  int a = 112;
-  a = 12;
-  String s = "salam";
-  String? aa;
-  aa = 'sakla';
-  // int s = a.toSigned();
-  bool ss = false;
-  bool sw = true;
-  double qq = 12.1;
-  dynamic zz = 'wef';
-  zz = 12;
-  var ww = true;
-  // print(aa);
+// print("a $a");
+// print("b $bwe");
+// int a = 112;
+// a = 12;
+// String s = "salam";
+// String? aa;
+// aa = 'sakla';
+// // int s = a.toSigned();
+// bool ss = false;
+// bool sw = true;
+// double qq = 12.1;
+// dynamic zz = 'wef';
+// zz = 12;
+// var ww = true;
+// // print(aa);
 
-  // ww = 'sd';
-  // print(aa + a.toString());
-}
+// ww = 'sd';
+// print(aa + a.toString());
+
 /*
 // print(Day.ekinchi);
 // print(Day.values);
@@ -129,10 +226,6 @@ void main() {
 //     fac(4) = 4 * fac (3)
 // /////////////////////////////////////////////////////
 
-// void User({String name = 'name', int age = 21}) {
-//   print("аты: $name");
-//   print("жашы: $age");
-// }
 // /////////////////////////////////////////////
 // void sandar(int a) {
 //   int birinchi = a % 10;
@@ -218,7 +311,7 @@ void main() {
 //   print(san);
 //   san++;
 // }
-//////////////////////////////////////////////
+/////////////////////////////////////////////////////////////
 // do {
 //   san++;
 //   print('do $san');
@@ -332,16 +425,8 @@ void main() {
 // double randomDouble =
 //     Random().nextDouble(); // Генерирует число между 0.0 и 1.0
 // print('Случайное число с плавающей точкой: $randomDouble');
-//////////////////////////////////////////////////////////////////////////////////////////
-// int day = 10;
-// if (day == 1 || day == 2 || day == 3 || day == 4 || day == 5) {
-//   print('Жумуш күн');
-// } else if (day > 3) {
-//   print(
-//       'Сиз жумада 7 күн бар экенин билесиз. Программа менен ойной бербеңиз.');
-// } else {
-//   print('Эс алуу күн');
-// }
+////////////////////////////////////////////////////////////////////////////////////////
+
 // var rng = Random();
 // for (var i = 0; i < 10; i++) {
 //   print(rng.nextInt(100));
@@ -389,20 +474,7 @@ void main() {
 // print(map.length);
 ///////////////////////////////////////////////////
 
-// int balans = 101;
-// int avtobuws = 40;
-// int taxsi = 100;
-// int biznes = 500;
 
-// if (balans >= avtobuws && balans <= taxsi) {
-//   print('avtobus menen ketem');
-// } else if (balans >= taxsi && balans <= biznes) {
-//   print('taxsi menen ketem');
-// } else if (balans >= biznes) {
-//   print('biznes menen ketem');
-// } else {
-//   print('peshkom ketem');
-// }
 
 // int balans = 0;
 // int avtobuws = 40;
