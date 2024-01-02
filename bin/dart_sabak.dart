@@ -1,16 +1,167 @@
-void main() {}
-  ////////////////////////////////////////////////
-//   salam();
-//   user('Azat', 11);
-//   sandar(3);
+void main() {
+  test().then((value) {
+    print('$value');
+  }).whenComplete(() {
+    print('object');
+  }).timeout(Duration(seconds: 1));
+}
+
+Future<String> test() async {
+  await Future.delayed(Duration(seconds: 3));
+  Future.error('error');
+  return Future.value('salam ');
+}
+///////////////////////////////////////////////////////////////
+  // sandar();
+  // Future<String> teast1 = test(a: 12);
+  // teast1.then((value) {
+  //   print('hello: =$value');
+  // });
+
+  // String futuer = await teast1;
+  // print('object $futuer');
+// }
+
+// Future<String> test({int a = 0}) async {
+//   await Future.delayed(Duration(seconds: 5));
+//   return Future.value('salam $a');
+// }
+
+// Future<String> sandar() async {
+//   print('object1');
+//   await Future.delayed(Duration(seconds: 5), () {
+//     print('object= ');
+//   });
+//   print('object');
+//   return 'ok';
+// }
+  // for (var i = 1; i <= 20; i++) {
+  //   Future.delayed(Duration(seconds: i), () {
+  //     print('object= $i');
+  //   });
+  // }
+  // print('object1');
+//   sandar();
+//   Future<String> result = sandar();
+//   result.then((value) {
+//     print("salam= $value");
+//   });
+// }
+
+// Future<String> sandar() async {
+//   print('object');
+//   await Future.delayed(Duration(seconds: 5), () {
+//     print('object= ');
+//   });
+//   print('object');
+//   return 'ok';
+// }
+  // Future<String> result = dowlaon();
+
+  // result.then(
+  //   (value) {
+  //     print("salam : $value");
+  //   },
+  // );
+  // print('result');
+  // Future.delayed(Duration(seconds: 5), () {
+  //   print('object');
+  // });
+
+  // print('object1');
+
+  // for (int i = 3; i <= 10; i++) {
+  //   Future.delayed(Duration(seconds: 3), () {
+  //     print('san= $i');
+  //   });
+  // }
+  // dowlaon();
+// }
+
+// Future<String> dowlaon() async {
+//   print('');
+//   await Future.delayed(Duration(seconds: 5));
+//   print('');
+//   return 'ish butu';
+// }
+//   Asan as = Asan();
+//   print(as());
+// }
+
+// class Asan {
+//   int test() {
+//     return 12;
+//   }
+
+//   double call() {
+//     return 12.13;
+//   }
+// }
+////////////////////////////////////////
+// List<int> a = [12, 43];
+// List<String> ae = ['faa'];
+// Adam<String, bool> aq = Adam();
+// aq.data1 = false;
+// aq.data2 = 'safa';
+// print(aq.data1);
+// print(aq.data2);
+
+// class Adam<T, A> {
+//   A? data1;
+//   T? data2;
+// }
+////////////////////////////////////////////////
+
+// print(sandar(
+//   azat: 20,
+// ));
+// text(kiyniki);
+//   print(uzun(23, 21));
+//   print(kyska(25, 32));
+// }
+
+// int kyska(int s, int e) => s + e;
+
+// int uzun(int a, int b) {
+//   return a + b;
+// }
+// (){}
+// ()=>
+// int text(Function task) {
+//   print("иштеп жатат");
+//   task();
+//   print("иштеп буту");
+//   return 20;
+// }
+
+// void kiyniki() {
+//   print('salam');
+// }
+// int sandar({required int azat, int? b}) {
+//   if (b == null) {
+//     b = 2;
+//   }
+//   return azat + b;
+// }
+
+// int s = 23;
+// int w = 34;
+
+// void shart(int a) {
+//   if (a < 8) {
+//     return;
+//   }
+//   print(a);
 // }
 // salam() {
 //   print('salam');
 // }
+
 // void user(String name, int age) {
 //   print("аты: $name");
 //   print("жашы: $age");
 // }
+
 // void sandar(int a) {
 //   int birinchi = a % 5;
 //   print("birinchi $birinchi");
@@ -473,8 +624,6 @@ void main() {}
 
 // print(map.length);
 ///////////////////////////////////////////////////
-
-
 
 // int balans = 0;
 // int avtobuws = 40;
